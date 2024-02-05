@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image" href="Picture/b.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sungai Buloh</title>
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 20px;
+            background-color: #2ecc71; /* Change to green */
+            color: #ffffff; /* Change to white */
+        }
+
+        nav {
+            font-family: serif;
+            background-color: #004d00; /* Dark green for nav */
+            padding: 15px;
+            text-align: right;
+            transition: transform 0.3s, color 0.3s; /* Smooth transition on hover */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            display: inline;
+            margin-left: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        nav a:hover {
+            color: #69a769; /* Change to a lighter shade */
+            transform: scale(1.05); /* Scale on hover */
+        }
+
+        header {
+            font-family: 'Playfair Display', serif;
+            background-color: #177f17; /* Dark green for header */
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 20px; /* Add space between header and content */
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px; /* Add space between header and content */
+        }
+
+        .name-column {
+            text-align: left;
+        }
+
+        .introduction {
+            text-align: justify;
+            margin: 20px 0;
+            background-color: #8ed59d; /* Light green for welcome section */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .text-content {
+            flex: 1;
+        }
+
+        .text-content p {
+            font-family: 'EB Garamond', serif; /* Change font family for text content */
+            font-size: x-large; /* Increase font size */
+            text-align: justify;
+            color: white;
+        }
+
+        .image-content {
+            flex: 1;
+            text-align: center;
+            display: flex;
+            flex-direction: column; /* Align images vertically */
+            align-items: center; /* Center content horizontally */
+            justify-content: center; /* Center content vertically */
+        }
+
+        .image-content img {
+            max-width: 35%; /* Make both images the same size */
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px; /* Add space between images */
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #004d00; /* Dark green for contact info */
+            color: white;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .button-container a,
+        .button-container button {
+            padding: 8px 15px; /* Adjusted button size */
+            margin: 10px;
+            color: white;
+            border: none;
+            border-radius: 10px; /* Rounded edges */
+            cursor: pointer;
+            font-size: medium; /* Adjusted font size */
+            font-family: 'Playfair Display', serif; /* Change font family for buttons */
+            text-decoration: none; /* Added for anchor tag */
+            display: inline-block; /* Added for anchor tag */
+            transition: background-color 0.3s; /* Smooth color transition */
+        }
+
+        .button-container a {
+            background-color: #004d00; /* Dark green for 'Say Hello' button */
+        }
+
+        .button-container button {
+            background-color: #004d00; /* Dark green for 'Video' button */
+        }
+    </style>
+
+    <!-- Link to Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&family=EB+Garamond&display=swap">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="About us.html">About Us</a></li>
+            <li><a href="community event.html">Community Event</a></li>
+            <li><a href="Local Business.html">Local Business</a></li>
+            <li><a href="news & update.html">New&Update and Community Initiatives</a></li>
+            <li><a href="attraction.html">Attraction</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="name-column">
+            <h1>Welcome to Sungai Buloh</h1>
+            <p style="font-size: larger;"></p>
+        </div>
+    </header>
+
+    <div class="content-container">
+        <div class="text-content">
+            <div class="introduction">
+                <p style="font-weight: bold; font-size: x-large;">Experience the Beauty, Embrace the Culture – Sungai Buloh, Malaysia.</p>
+            </div>
+
+            <p style="font-family: 'EB Garamond', serif; font-size: x-large; color: white;">Sungai Buloh, located on the outskirts of Kuala Lumpur, Malaysia, is a town steeped in history and unique features. Renowned for the Sungai Buloh Leprosy Settlement, established in the early 20th century, the town played a crucial role in global leprosy research and treatment. Preserving tradition amidst urbanization, Kampung Baru Sungai Buloh offers a glimpse into rural life. The Sungai Buloh Hospital and historic railway station stand as landmarks, reflecting the area's healthcare advancements and transportation history. The Sungai Buloh Leprosy Settlement Museum provides insights into leprosy treatment history, while the nearby Fort Lukut replica adds a broader historical dimension. Sungai Buloh encapsulates a vibrant blend of healthcare milestones, cultural heritage, and historical landmarks, embodying the diverse narrative of the region in a nutshell.</p>
+        </div>
+
+        <div class="image-content">
+            <img src="Picture/a.jpg" alt="a logo">
+            <img src="Picture/b.png" alt="b logo">
+        </div>
+    </div>
+
+    <p style="font-weight: bold; font-size: larger; margin-top: 20px; color: white;">Explore Sungai Buloh through our video:</p>
+
+    <div class="button-container">
+        <button onclick="handleButton2()"><a href="Picture/KAMPUNG BARU SUNGAI BULOH _ DRONE 4K CINEMATIC _ AD2RIN (1).mp4" target="Sungai Buloh">Watch Video</a></button>
+    </div>
+
+    <div class="contact-info">
+        <p style="font-size: larger;">2023. Sungai Buloh. All rights reversed</p>
+    </div>
+
+    <script>
+        function handleButton2() {
+            // Define the action for Button 2
+            console.log("Button 2 clicked");
+        }
+    </script>
+
+</body>
+
+</html>
